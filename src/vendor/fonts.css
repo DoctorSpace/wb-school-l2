@@ -1,0 +1,7 @@
+@font-face {
+  font-display: swap;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/Kanit-Regular.ttf") format("truetype");
+}

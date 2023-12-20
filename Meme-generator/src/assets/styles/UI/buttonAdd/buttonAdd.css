@@ -1,0 +1,14 @@
+.buttonAdd{
+    cursor: pointer;
+
+    width: 76px;
+    height: 32px;
+
+    border-radius: 10px;
+    background-color: #43a7ff;
+}
+
+.buttonAdd:hover{
+    transition: ease-in 0.5s;
+    background-color: #62b3fa;
+}

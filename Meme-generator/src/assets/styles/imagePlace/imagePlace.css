@@ -1,0 +1,9 @@
+.imagePlace{
+    height: 500px;
+    border-radius: 20px;
+    border: 2px dashed #343A3C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

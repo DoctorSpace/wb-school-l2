@@ -1,0 +1,10 @@
+body{
+    font-family: 'Kanit';
+
+    background-image: url('../../img/background.png');
+
+    background-color: black;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}

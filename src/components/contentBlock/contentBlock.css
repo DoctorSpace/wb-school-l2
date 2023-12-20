@@ -1,0 +1,36 @@
+.contentBlock{
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+
+    gap: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contentBlock a{
+    text-decoration: none;
+}
+
+.contentBlock__link{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contentBlock__link p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.contentBlock__link img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contentBlock__link:hover{
+    border: 4px solid #ff8c00;
+}

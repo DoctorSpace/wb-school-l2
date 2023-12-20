@@ -1,0 +1,12 @@
+.root{
+    max-width: 1400px;
+    margin: 0 auto;
+
+    font-family: 'Kanit';
+}
+
+.root h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}

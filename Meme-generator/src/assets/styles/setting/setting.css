@@ -1,0 +1,24 @@
+.settingPlace{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 16px;
+
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #343A3C;
+}
+
+.settingPlace__imageSelection{
+    border-radius: 20px;
+    border: 1px solid #343A3C;
+    background: #16191A;
+}
+
+.settingPlace__textSelection{
+    border-radius: 20px;
+    border: 1px solid #343A3C;
+    background: #16191A;
+}

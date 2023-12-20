@@ -1,0 +1,18 @@
+/* Root */
+@import url(./normalize/normalize.css);
+
+
+/* Blocks */
+@import url(./body/body.css);
+@import url(./section/section.css);
+@import url(./setting/setting.css);
+
+@import url(./imagePlace/imagePlace.css);
+@import url(./imageSelection/imageSelection.css);
+@import url(./galleryContainer/galleryContainer.css);
+
+
+/* UI */
+@import url(./UI/buttonAdd/buttonAdd.css);
+@import url(./UI/buttonAdd/buttonCreate.css);
+@import url(./UI/inputAdd/inputAdd.css);
