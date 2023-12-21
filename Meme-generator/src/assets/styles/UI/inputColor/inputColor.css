@@ -1,0 +1,8 @@
+.inputColor{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+
+    width: 42px;
+    height: 30px;
+}

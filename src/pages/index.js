@@ -3,7 +3,7 @@ import { dataBlock } from "../date/dateBlock.js";
 dataBlock.forEach((item) => {
   let post = document.createElement("a");
 
-  post.href = `./${item.url}/src/imdex.html`;
+  post.href = `./${item.url}/src/index.html`;
   post.classList.add("contentBlock__link");
 
   post.innerHTML = `

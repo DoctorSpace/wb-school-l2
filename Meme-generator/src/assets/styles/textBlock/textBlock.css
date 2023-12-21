@@ -1,0 +1,29 @@
+.textBlock{
+    margin-top: 16px;
+
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap:20px;
+}
+
+.textBlock__element{
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+
+    border-radius: 4px;
+    border: 2px solid #343A3C;
+
+    background: #16191A;
+
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.textBlock__element img{
+    cursor: pointer;
+}

@@ -17,6 +17,16 @@
     background: #16191A;
 }
 
+.settingPlace__imageSelection-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#reset{
+    cursor: pointer;
+}
+
 .settingPlace__textSelection{
     border-radius: 20px;
     border: 1px solid #343A3C;

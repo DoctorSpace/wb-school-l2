@@ -1,0 +1,20 @@
+.settingPlace__textSelection{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.textSelection__block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textSelection__block-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

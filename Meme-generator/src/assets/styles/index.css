@@ -9,10 +9,14 @@
 
 @import url(./imagePlace/imagePlace.css);
 @import url(./imageSelection/imageSelection.css);
+@import url(./textSelection/textSelection.css);
+@import url(./infoPlace/infoPlace.css);
 @import url(./galleryContainer/galleryContainer.css);
+@import url(./textBlock/textBlock.css);
 
 
 /* UI */
 @import url(./UI/buttonAdd/buttonAdd.css);
-@import url(./UI/buttonAdd/buttonCreate.css);
+@import url(./UI/buttonCreate/buttonCreate.css);
 @import url(./UI/inputAdd/inputAdd.css);
+@import url(./UI/inputColor/inputColor.css);

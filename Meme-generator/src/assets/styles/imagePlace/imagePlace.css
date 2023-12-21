@@ -1,4 +1,6 @@
 .imagePlace{
+    cursor: pointer;
+
     height: 500px;
     border-radius: 20px;
     border: 2px dashed #343A3C;
@@ -6,4 +8,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imagePlace img{
+    max-height: 580px;
+    max-width: 800px;
+}
+
+
+/* Добавили изображение */
+
+.imagePlace_activ{
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imagePlace_activ img{
+    max-height: 580px;
+    max-width: 1000px;
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Генератор мемов</title>
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <section>
+      <input name="inputImage" id="inputImage" type="file" class="hide" accept="image/png, image/jpeg">
+      <label id="labelPlace"  for="inputImage" class="imagePlace">
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <div id="infoPlace" class="infoPlace hide">
+          <img src="./assets/img/imgAdd.svg" />
+          <p>Загрузить изображение</p>
+        </div>
+      </label>
+
+      <setting class="settingPlace">
+        <div class="settingPlace__imageSelection">
+            <div class="settingPlace__imageSelection-text">
+              <h3>Выбрать заготовленые изображения</h3>
+              <img id="reset" src="./assets/img/reset.svg">
+            </div>
+            <div class="gallery-container" id="galleryContainer"></div>
+        </div>
+
+        <div class="settingPlace__textSelection">
+          <div id="textSelection">
+            <div class="textSelection__block">
+              <div class="textSelection__block-row">
+                <input id="text" class="inputAdd" type="text" placeholder="Введите текст..." />
+              </div>
+              <div class="textSelection__block-row">
+                <input id="textSize" style="width: 100px;" class="inputAdd"  type="number" placeholder="Размер">
+                <input id="textStroke" style="width: 120px;" class="inputAdd"  type="number" placeholder="Обводка">
+                <input id="textColor" class="inputColor" type="color" />
+                <input id="textColorStroke" class="inputColor" type="color" value="#ffffff" />
+                <button id="buttonAdd" class="buttonAdd">+</button>
+              </div>
+
+              <div id="textBlock" class="textBlock"></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <button id="buttonCreate" class="buttonCreate">Сохранить мем</button>
+      </setting>
+    </section>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

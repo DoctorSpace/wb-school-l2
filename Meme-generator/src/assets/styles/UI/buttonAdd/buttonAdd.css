@@ -1,14 +1,18 @@
-.buttonAdd{
-    cursor: pointer;
+.buttonAdd {
+  cursor: pointer;
+  align-self: end;
 
-    width: 76px;
-    height: 32px;
+  width: 76px;
+  height: 32px;
 
-    border-radius: 10px;
-    background-color: #43a7ff;
+  font-size: 28px;
+
+  border-radius: 10px;
+  border: 0;
+  background-color: #43a7ff;
 }
 
-.buttonAdd:hover{
-    transition: ease-in 0.5s;
-    background-color: #62b3fa;
+.buttonAdd:hover {
+  transition: ease-in 0.3s;
+  background-color: #6ab7fa;
 }

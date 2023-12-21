@@ -7,4 +7,6 @@ export const dateUrlMemeTemplate = [
   "memeTemplate6.jpg",
   "memeTemplate7.jpg",
   "memeTemplate8.png",
+  "memeTemplate9.jpg",
+  "memeTemplate10.jpg",
 ];

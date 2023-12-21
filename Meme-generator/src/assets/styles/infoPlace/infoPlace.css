@@ -1,0 +1,12 @@
+.infoPlace {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.infoPlace p {
+  width: 160px;
+}
