@@ -1,0 +1,14 @@
+.game-buttons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:10px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+    margin-bottom: 10px;
+}

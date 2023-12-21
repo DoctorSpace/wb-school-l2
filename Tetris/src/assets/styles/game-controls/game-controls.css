@@ -1,0 +1,19 @@
+.game-controls{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:10px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.game-controls__arrow{
+    display: flex;
+    flex-direction: row;
+
+    gap:14px;
+}

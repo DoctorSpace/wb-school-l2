@@ -2,7 +2,7 @@ export const dataBlock = [
   {
     title: "Тетрис X",
     img: "tetris.png",
-    url: "#",
+    url: "Tetris",
   },
   {
     title: "Генератор мемов X",

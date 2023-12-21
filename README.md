@@ -10,7 +10,7 @@
 #### Мои решения:
 <a  href="https://doctorspace.github.io/wb-school-l2/">Playground</a>
 
-* <a href="https://doctorspace.github.io/wb-school-l2/#">Тетрис</a>
+* <a href="https://doctorspace.github.io/wb-school-l2/Tetris/src/index.html">Тетрис</a>
 * <a href="https://doctorspace.github.io/wb-school-l2/Meme-generator/src/index.html">Генератор мемов</a>
 * <a href="https://doctorspace.github.io/wb-school-l2/#">Крестики нолики</a>
 * <a href="https://doctorspace.github.io/wb-school-l2/#">Планировщик задач</a>

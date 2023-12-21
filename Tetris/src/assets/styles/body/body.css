@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+
+  height: 100vh;
+  background-color: #01487C;
+  background-image: url(../../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

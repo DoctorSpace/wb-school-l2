@@ -1,0 +1,10 @@
+canvas {
+  border: 10px solid #fff;
+  border-radius: 10px;
+}
+
+.canvas-background {
+height: 660px;    
+    background-color: #131f26bb;
+    border-radius: 10px;
+}

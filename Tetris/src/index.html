@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+</head>
+<body>
+    <div class="game-content">
+        <div class="game-content__inner">
+            <div class="canvas-background">
+                <canvas width="320" height="640" id="game"></canvas>
+            </div>
+
+            <div class="game-content__info">
+                <div class="game-content__next">
+                    <span class="next__title">Next</span>
+                    <div class="next__inner">
+                        <div id="tetromino" class="tetromino">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-content__score">
+                    <span class="score__title">Счёт</span>
+                    <span id="scoreTotal" class="score__total">0</span>
+                </div>
+
+                <!-- Контролеры -->
+                <div class="game-buttons">
+                    <button id="btnStart"   class="gameBtn">Старт</button>
+                    <button id="btnRestart" class="gameBtn">Перезапуск</button>
+                </div>
+
+                <div class="game-controls">
+                    <div class="game-controls__arrow">
+                        <button id="btnLeft"  class="controlsBtn">
+                            <img style="transform: rotate(180deg);" src="./assets/img/arrow.svg">
+                        </button>
+                        <button style="transform: rotate(90deg);" id="btnDown"  class="controlsBtn">
+                            <img src="./assets/img/arrow.svg">
+                        </button>
+                        <button id="btnRight" class="controlsBtn">
+                            <img src="./assets/img/arrow.svg">
+                        </button>
+                    </div>
+                    <button id="btnRoll"  class="gameBtn">
+                        <p>Перевернуть</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

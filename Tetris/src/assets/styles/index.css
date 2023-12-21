@@ -1,0 +1,14 @@
+/* Root */
+@import url(./normalize/normalize.css);
+
+/* Blocks */
+@import url(./body/body.css);
+@import url(./canvas/canvas.css);
+@import url(./game-content/game-content.css);
+@import url(./game-buttons/game-buttons.css);
+@import url(./game-controls/game-controls.css);
+@import url(./tetromino/tetromino.css);
+
+/* UI */
+@import url(./UI/controlsBtn/controlsBtn.css);
+@import url(./UI/gameBtn/gameBtn.css);
