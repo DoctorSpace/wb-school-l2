@@ -1,0 +1,24 @@
+/* Root */
+@import url(./normalize/normalize.css);
+@import url(./font/font.css);
+
+
+/* Blocks */
+@import url(./body/body.css);
+@import url(./section/section.css);
+
+/* SettingPage */
+@import url(./settingPage/settingPage.css);
+@import url(./settingInput/settingInput.css);
+
+
+/* GamePage */
+@import url(./gamePage/gamePage.css);
+@import url(./gameInput/gameInput.css);
+@import url(./gameBorder/gameBorder.css);
+@import url(./gameSteps/gameSteps.css);
+
+
+/* UI */
+@import url(./UI/MyButton/MyButton.css);
+@import url(./UI/RestartButton/RestartButton.css);

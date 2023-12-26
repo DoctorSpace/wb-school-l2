@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Найди Число</title>
+    <link rel="shortcut icon" href="./assets/img/Logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <section>
+      <h1>УГАДАЙ ЧИСЛО</h1>
+
+      <div id="settingPage" class="settingPage">
+        <div class="settingPage__params">
+          <h4>Задать пределы</h4>
+
+          <div class="settingPage__params-number">
+            <div class="settingInput">
+              <p>от</p>
+              <input
+                id="minBorderNumber"
+                type="number"
+                placeholder="1"
+                min="0"
+              />
+            </div>
+
+            <div class="settingInput">
+              <p>до</p>
+              <input
+                id="maxBorderNumber"
+                type="number"
+                placeholder="100"
+                min="1"
+              />
+            </div>
+          </div>
+        </div>
+        <button id="btnStartGame" class="MyButton">Начать</button>
+      </div>
+
+      <!-- game -->
+
+      <div id="gamePage" class="gamePage dNone">
+        <div id="InputPlace" class="gameInput">
+          <p class="gameInput__warning dNone" id="warningText">
+            число вышло за пределы
+          </p>
+          <input
+            id="mainGameInput"
+            min="0"
+            type="number"
+            placeholder="введите число"
+          />
+          <p id="attemptNumPlace" class="gameInput__attempt dNone">
+            число попыток: <span id="attemptNum">14</span>
+          </p>
+        </div>
+
+        <div class="gameBorder">
+          <p>
+            от <span id="gameMinBorderNumber">1</span> до
+            <span id="gameMaxBorderNumber">200</span>
+          </p>
+        </div>
+
+        <div class="gameSteps">
+          <div id="gameSteps" class="gameSteps__rev"></div>
+        </div>
+
+        <button id="btnCheckNum" class="MyButton">Проверить</button>
+
+        <button id="btnRestart" class="RestartButton">
+          <img src="../src/assets/img/restart.svg" />
+        </button>
+      </div>
+    </section>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

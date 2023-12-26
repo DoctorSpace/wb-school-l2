@@ -1,0 +1,35 @@
+.gameInput {
+  position: relative;
+}
+
+.gameInput input {
+  max-width: 400px;
+  height: 120px;
+
+  text-align: center;
+
+  font-size: 48px;
+
+  border-radius: 20px;
+  border: 3px solid #6590ff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+.red input{
+  border: 3px solid #ff0000;
+}
+
+.gameInput__warning {
+
+  color: #FF9A02;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+
+.gameInput__attempt {
+  position: absolute;
+  left: 130px;
+  bottom: 10px;
+}

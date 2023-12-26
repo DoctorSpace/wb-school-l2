@@ -1,0 +1,31 @@
+.settingInput {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 6px;
+}
+
+.settingInput p {
+  color: #000;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.settingInput input {
+  height: 57px;
+  border-radius: 10px;
+  border: 1px solid #6590ff;
+
+  background: #fff;
+
+  text-align: center;
+  font-size: 24px;
+}

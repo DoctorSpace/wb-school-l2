@@ -1,0 +1,26 @@
+section {
+  height: 867px;
+  width: 100%;
+
+  margin: 0 700px;
+
+  gap: 120px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #000;
+  font-family: "Inter";
+
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
