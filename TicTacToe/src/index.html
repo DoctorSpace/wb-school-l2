@@ -10,28 +10,27 @@
 <body>
     <h1>Крестики нолики</h1>
 
-    <header>
-        <h3>Ход игрока 1</h3>
+    <header id="header" class="headP1">
+        <h3 id="headerMove">Ходит нолик</h3>
     </header>
 
     <section>
-        <div class="board">
-            <div class="board__сell" id="сell-0"></div>
-            <div class="board__сell" id="сell-1"></div>
-            <div class="board__сell" id="сell-2"></div>
-            <div class="board__сell" id="сell-3"></div>
-            <div class="board__сell" id="сell-4"></div>
-            <div class="board__сell" id="сell-5"></div>
-            <div class="board__сell" id="сell-6"></div>
-            <div class="board__сell" id="сell-7"></div>
-            <div class="board__сell" id="сell-8"></div>
+        <div id="board" class="board">
+            <div class="сell" id="1"></div>
+            <div class="сell" id="2"></div>
+            <div class="сell" id="3"></div>
+            <div class="сell" id="4"></div>
+            <div class="сell" id="5"></div>
+            <div class="сell" id="6"></div>
+            <div class="сell" id="7"></div>
+            <div class="сell" id="8"></div>
+            <div class="сell" id="9"></div>
           </div>
     </section>
 
+    <button id="btnRestart" class="btnRestart"><img src="./assets/img/restart.svg"></button>
 
-    <sidebar>
-        1123
-    </sidebar>
+    <sidebar id="sidebar"></sidebar>
 
     <script src="./js/main.js" type="module"></script>
 </body>

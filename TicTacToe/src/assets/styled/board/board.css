@@ -4,17 +4,17 @@
     grid-gap: 5px;
   }
   
-  .board__сell {
+  .сell {
     width: 100px;
     height: 100px;
     background-color: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 48px;
     cursor: pointer;
   }
   
-  .board__сell:hover {
+  .сell:hover {
     background-color: #ddd;
   }

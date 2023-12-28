@@ -1,5 +1,7 @@
 body {
-  background-color: #838383;
+  background-color: #ffffff;
+
+  background-image: url('../../img/background.png');
   font-family: "Inter";
 
   display: flex;
