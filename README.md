@@ -12,9 +12,9 @@
 
 * <a href="https://doctorspace.github.io/wb-school-l2/Tetris/src/index.html">Тетрис</a>
 * <a href="https://doctorspace.github.io/wb-school-l2/Meme-generator/src/index.html">Генератор мемов</a>
-* <a href="https://doctorspace.github.io/wb-school-l2/#">Крестики нолики</a>
+* <a href="https://doctorspace.github.io/wb-school-l2/TicTacToe/src/index.html">Крестики нолики</a>
 * <a href="https://doctorspace.github.io/wb-school-l2/Guess-The-Number/src/index.html">Угадай число</a>
-* <a href="https://doctorspace.github.io/wb-school-l2/#">Калькулятор калорий</a>
+* <a href="https://doctorspace.github.io/wb-school-l2/Calorie-Сalculator/src/index.html">Калькулятор калорий</a>
 * <a href="https://doctorspace.github.io/wb-school-l2/#">Визуализация сортировки</a>
 
 #### Основной стек

@@ -10,9 +10,9 @@ export const dataBlock = [
     url: "Meme-generator",
   },
   {
-    title: "Крестики нолики X",
+    title: "Крестики нолики",
     img: "TicTacToe.png",
-    url: "#",
+    url: "TicTacToe",
   },
   {
     title: "Угадай число",
