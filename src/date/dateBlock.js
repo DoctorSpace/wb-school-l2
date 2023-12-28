@@ -20,9 +20,9 @@ export const dataBlock = [
     url: "Guess-The-Number",
   },
   {
-    title: "Калькулятор калорий X",
-    img: "TicTacToe.png",
-    url: "#",
+    title: "Калькулятор калорий",
+    img: "CalorieСalculator.png",
+    url: "Calorie-Сalculator",
   },
   // {
   //   title: "Виазулизация сортировки X",

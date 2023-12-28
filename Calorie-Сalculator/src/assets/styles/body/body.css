@@ -1,0 +1,12 @@
+body {
+  background-color: #ffffff;
+  font-family: "Inter";
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  box-shadow: -4px 0px 12px 0px rgba(0, 0, 0, 0.1),
+    4px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}

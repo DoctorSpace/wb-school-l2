@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор калорий</title>
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/Logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section>
+      <h1>Калькулятор калорий</h1>
+      <div class="interactionBlock">
+        <div class="addingFood">
+          <h3>Добавить еду</h3>
+
+          <div class="addingFood__params">
+            <div class="addingFood__params-row">
+              <div class="paramsInput">
+                <p>название продукта</p>
+                <input id="paramsTitle" type="text" placeholder="Сыр" />
+              </div>
+            </div>
+
+            <div class="addingFood__params-row">
+              <div class="paramsInput">
+                <p>белки</p>
+                <input id="paramsSquirrels" class="MyInput-SFC" type="number" placeholder="22" min="0"/>
+              </div>
+              <div class="paramsInput">
+                <p>жиры</p>
+                <input id="paramsFats" class="MyInput-SFC" type="number" placeholder="25" min="0"/>
+              </div>
+              <div class="paramsInput">
+                <p>углеводы</p>
+                <input id="paramsCarbohydrates" class="MyInput-SFC" type="number" placeholder="14" min="0"/>
+              </div>
+            </div>
+
+            <div class="addingFood__params-row">
+              <div class="paramsInput">
+                <p>ккал</p>
+                <input id="paramsKall" class="MyInput-KG" type="number" placeholder="125" min="0"/>
+              </div>
+              <div class="paramsInput">
+                <p>грамм</p>
+                <input id="paramsGramm" class="MyInput-KG" type="number" placeholder="100" min="0"/>
+              </div>
+            </div>
+          </div>
+
+          <button id='btnAddFood' class="MyButton">Съесть</button>
+        </div>
+
+        <div class="foodDiagram">
+          <p id="foodWarning" class="foodDiagram__warning dNone">превышен предел калорий</p>
+          <div class="dailyСalories__wrap">
+            <div class="dailyСalories__block">
+              <div class="dailyСalories__chart">
+
+                <img src="./assets/img/🔥.svg" style="position: absolute;">
+                <svg
+                  viewBox="0 0 36 36"
+                  class="dailyСalories__circular dailyСalories__circular--accent"
+                >
+                  <path
+                    class="dailyСalories__circle"
+                    stroke-dasharray="0, 100"
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <p class="foodDiagram__KallNow" id="nowCalories">0</p>
+          <input id="inputMaxCalories" class="settingInput" type="number" placeholder="лимит" min="0">
+        </div>
+
+        <div class="foodInfo">
+          <h3>Итог за день</h3>
+
+          <div class="foodInfo__column">
+            <div class="foodInfo__column-blocks">
+              <div class="foodInfo__column-blocksRow">
+                <p>🍖</p>
+                <p>белки</p>
+              </div>
+              <h5><span id="squirrelsInfo">100</span> гр</h5>
+            </div>
+
+            <div class="foodInfo__column-blocks">
+              <div class="foodInfo__column-blocksRow">
+                <p>🥑</p>
+                <p>жиры</p>
+              </div>
+              <h5><span id="fatsInfo">80</span> гр</h5>
+            </div>
+
+            <div class="foodInfo__column-blocks">
+              <div class="foodInfo__column-blocksRow">
+                <p>🌽</p>
+                <p>углеводы</p>
+              </div>
+              <h5><span id="carbohydratesInfo">167</span> гр</h5>
+            </div>
+
+            <div class="foodInfo__column-blocks">
+              <div class="foodInfo__column-blocksRow">
+                <p>🔥</p>
+                <p>Калории</p>
+              </div>
+              <h5><span id="caloriesInfo">200</span> ккал</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- блок еды -->
+      <div class="readingsBlocks">
+        <div class="settings">
+          <button id="filterProduct" class="filterButton">
+            <p>По калориям</p>
+            <img class="img_dNone" id="filterProductIMG" src="./assets/img/arrow.svg" />
+          </button>
+          <input id="searchInput" class="searchInput" placeholder="Название продукта" />
+          <button id="btnDeleteAll" class="filterButton">Удалить всё</button>
+        </div>
+
+        <!-- Место для еды -->
+        <div class="foodPlace" id="foodPlace"></div>
+      </div>
+    </section>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.eatenFood {
+  display: flex;
+  height: 48px;
+
+  padding: 10px 16px;
+
+  background-color: #f0f2fb;
+  border-radius: 10px;
+
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
+.eatenFood__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eatenFood__info h5 {
+  color: #000;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.eatenFood__info-text {
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+}
+
+.eatenFood__info-text p {
+  color: #000;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

@@ -1,0 +1,4 @@
+.foodPlace{
+    display: flex;
+    flex-direction: column;
+}

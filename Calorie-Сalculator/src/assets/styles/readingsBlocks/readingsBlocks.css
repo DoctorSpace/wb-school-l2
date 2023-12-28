@@ -1,0 +1,24 @@
+.readingsBlocks {
+  padding: 16px 24px 24px 24px;
+  border-radius: 20px;
+  border: 1px solid #6590ff;
+
+  height: 400px;
+
+  margin: 30px 30px;
+  overflow-y:scroll;
+}
+
+
+.readingsBlocks::-webkit-scrollbar {
+  width: 16px;               /* ширина scrollbar */
+}
+.readingsBlocks::-webkit-scrollbar-track {
+  background: #6590FF;         /* цвет дорожки */
+  border-radius: 0px 20px 20px 0px; 
+}
+.readingsBlocks::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+  border-radius: 40px;      
+  border: 4px solid #6590FF;
+}

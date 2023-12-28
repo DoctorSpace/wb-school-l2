@@ -1,0 +1,34 @@
+.addingFood {
+  padding: 16px 24px 24px 24px;
+  border-radius: 20px;
+  border: 1px solid #6590ff;
+
+  width: 100%;
+}
+
+.addingFood h3 {
+  text-align: center;
+
+  color: #000;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.addingFood__params {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+.addingFood__params-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}

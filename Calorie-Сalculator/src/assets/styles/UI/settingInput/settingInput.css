@@ -1,0 +1,14 @@
+.settingInput{
+    border: 1px solid #6590ff;
+    border-radius: 10px;
+
+    width: 60px;
+
+    height: 32px;
+    padding-left: 10px;
+
+    right: 20px;
+    bottom: 24px;
+
+    position: absolute;
+}

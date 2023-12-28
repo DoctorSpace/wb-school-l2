@@ -1,0 +1,46 @@
+.foodDiagram {
+  padding: 16px 24px 24px 24px;
+  border-radius: 20px;
+  border: 1px solid #6590ff;
+
+  width: 100%;
+
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  margin: 0 auto;
+}
+
+.dNone{
+  display: none;
+}
+
+.foodDiagram__warning{
+  color: #ff6565;
+}
+
+.foodDiagram__KallNow{
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+
+  padding: 0 12px;
+
+  border: 1px solid #6590ff;
+  border-radius: 10px;
+
+  height: 32px;
+
+  left: 20px;
+  bottom: 24px;
+}

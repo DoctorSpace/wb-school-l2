@@ -1,0 +1,68 @@
+.foodInfo {
+  padding: 16px 24px 24px 24px;
+  border-radius: 20px;
+  border: 1px solid #6590ff;
+  min-width: 332px;
+}
+
+.foodInfo h3 {
+  color: #000;
+
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.foodInfo__column {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  gap: 20px;
+}
+
+.foodInfo__column-blocks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.foodInfo__column-blocks h5 {
+  color: #ffffff;
+
+  text-align: right;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+
+  padding-left: 40px;
+  padding-right: 10px;
+
+  background-color: #6591ff7c;
+}
+
+.foodInfo__column-blocksRow {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.foodInfo__column-blocksRow p {
+  color: #000;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}

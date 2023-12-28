@@ -1,0 +1,44 @@
+.filterButton {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  cursor: pointer;
+  height: 42px;
+
+  border: 0;
+  color: #fff;
+
+  padding: 0 16px;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  border-radius: 6px;
+  background: #6590ff;
+}
+
+.filterButton:hover {
+  background: #80a3fc;
+}
+
+.img_dNone{
+    display: none;
+}
+
+.img_downActiv{
+    display: block;
+}
+
+.img_upActiv{
+    display: block;
+    transform: rotate(180deg);
+}

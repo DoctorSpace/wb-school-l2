@@ -1,0 +1,38 @@
+.dailyСalories__wrap {
+  display: flex;
+}
+
+.dailyСalories__block {
+  max-width: 170px;
+}
+
+.dailyСalories__chart {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+  width: 170px;
+  height: 170px;
+}
+
+.dailyСalories__circular {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.dailyСalories__circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke: #6590ff;
+  animation: progress 2s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}

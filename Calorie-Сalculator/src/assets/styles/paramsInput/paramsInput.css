@@ -1,0 +1,23 @@
+.paramsInput {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 98%;
+}
+
+.paramsInput input {
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid #6590ff;
+  padding-left: 12px;
+}
+
+.paramsInput p {
+  color: #000;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

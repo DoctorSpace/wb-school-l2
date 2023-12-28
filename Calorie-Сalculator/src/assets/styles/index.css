@@ -1,0 +1,29 @@
+/* Root */
+@import url(./normalize/normalize.css);
+@import url(./font/font.css);
+
+
+/* Blocks */
+@import url(./body/body.css);
+@import url(./section/section.css);
+@import url(./interactionBlock/interactionBlock.css);
+@import url(./addingFood/addingFood.css);
+@import url(./paramsInput/paramsInput.css);
+@import url(./foodDiagram/foodDiagram.css);
+@import url(./foodInfo/foodInfo.css);
+@import url(./progress-bar/progress-bar.css);
+
+@import url(./readingsBlocks/readingsBlocks.css);
+@import url(./settings/settings.css);
+@import url(./foodPlace/foodPlace.css);
+@import url(./eatenFood/eatenFood.css);
+
+
+/* UI */
+@import url(./UI/MyButton/MyButton.css);
+@import url(./UI/MyInput/MyInput.css);
+@import url(./UI/BinButton/BinButton.css);
+@import url(./UI/searchInput/searchInput.css);
+@import url(./UI/filterButton/filterButton.css);
+@import url(./UI/settingButton/settingButton.css);
+@import url(./UI/settingInput/settingInput.css);
